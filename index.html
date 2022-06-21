@@ -5,31 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio Website</title>
+    <title>Document</title>
 </head>
 <body>
-  
-   <nav class="content">
-       <dl id="left"> Dev </dl>
-       <dl id="links"> <a href="#"> About Me</dl> </a>
-       <dl id="links"> <a href="#">Skills</dl> </a>
-       <dl id="links"> <a href="#">My Work</dl> </a>
+   <nav id="navigation-up">
+      <ul>
+          <li id="logo"><img src="Flipkart logo.png"></li>
+          <li id="box"> <input type="text" id="search" placeholder="Search for products brands and more"> </li>
+          <li id="Login"><button>Login</button></li>
+          <li id="More"> <a href="#" id="link">  More </a></li>
+          <li id="Cart"><a href="#" id="link"> Cart </a></li>
+      </ul>  
    </nav>
-   <div class="page">
-   <div class="info">
-      <h1>Hi,</h1> 
-      <h2>I'm <b style="color:rgb(219, 65, 65);">Devashish,</b>  
-      <h2>Web Designer.</h2>  
-      <h3>Java / C++ / Python</h3>
+  <nav id="navigation-mid">
+      <ul>
+          <li> <a href="#">Electronics</a></li>
+          <li> <a href="#">Tv & Appliances</a></li>
+          <li> <a href="#">Men</a></li>
+          <li> <a href="#">Women</a><li>
+          <li> <a href="#">Baby & Kids</a></li>
+          <li> <a href="#">Home & Furniture</a></li>
+          <li> <a href="#">Sports,Books & More</a></li>
+          <li> <a href="#">Flights</a></li>
+          <li> <a href="#">Offer Zone</a></li>
+      </ul>
+  </nav> 
+  <div class="content">
+  <div class="login-logo">Login here <br> <br>Access your order history 
+      <div id="login-text"></div>
+      <div class="login-image"><img id="image-box" src="login_flipkart image.png"></div>
+  </div>
 
-      <br>
-      <button>CONTACT ME</button>
-   </div>
-   <div class="photo">
-    <img src="Pic.jpg" width="100px" height="100px">   
-    
-</div>
-
+  <div class="login-page">
+    <form action = "">
+    Enter Email/Mobile Number
+    <input type="email" id="email-input" placeholder="Enter Your Email or Mobile Number"> 
+    <br/> 
+    <br/>
+    Enter Password <br/>
+    <input type="password" id="password-input" placeholder="Enter Your Password">
+    <br/> 
+    <br/>
+    <h6>By continuing, you agree to Flipkart's Terms of Use and Privacy Policy</h6>
+    <button id="Login2"><a href="product.html">Login</a></button>
+    <h2>OR</h2>  
+    <button id="dev">Request OTP</button>
+    <br/> 
+    <br/>
+    <br/> 
+    <br/>
+     <a href="Signup.html"><h5>New to Flipkart? Create an account</h5></a> 
+</form>  
+  </div>
 </div>
 </body>
 </html>

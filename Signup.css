@@ -1,0 +1,112 @@
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+.Signup{
+    display: flex;
+    justify-content: space-evenly;
+    width: 13rem;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(33 119 231);
+    color: white;
+    padding: 20px 20px 0px 30px;
+    height: 315px;
+    width: 24rem;
+    gap: 20px;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px 20px 15px 30px;
+    width:24rem;
+    height:300px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#user{
+    width: 20.5rem;
+    height: 1.3rem;
+}
+
+#btn{
+    width: 20.5rem;
+    height: 1.3rem;
+    background-color: rgb(212, 142, 11);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: orange;
+    color: black;
+    transition: 0.8s;
+}
+
+#btn2{
+    width: 20.5rem;
+    color: blue;
+    font-size: smaller;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#btn2:hover{
+    text-decoration: underline;
+    transition: 0.8s;
+    
+}
+
+
+pre#sur{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+    font-weight: 600;
+}
+pre#sul{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    font-weight: 200;
+}
+
+img{
+    height: 125px;
+    padding: 10px 20px 15px 15px;
+}
+strong{
+    font-weight: 400;
+}
+
+input{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+    border: none;
+    opacity: 0.4;
+    background-color: white;
+    border: 1px solid black;
+  
+}
+
+a{
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

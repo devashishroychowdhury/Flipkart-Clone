@@ -1,53 +1,240 @@
-.content{
-    display:flex;
-    background-color: black;
-    color: white;
-    height:45px;
-    /* margin: 0px white 2px;
-    border: white 10px; */
-    padding: 1px 12px 1px 19px;
-    /* align-items: flex-end; */
-    justify-content: flex-end;
+*{
+  font-family: 'Franklin Gothic Medium', 
+  'Arial Narrow', Arial, sans-serif;
+  list-style: none;
 }
 
 body{
     margin: 0px;
-}
-
-dl{
-    padding-right: 20px;
-    padding-bottom: 10px;
+    padding: 0px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 a{
-    text-decoration: none;
     color: white;
+    text-decoration: none;
+}
+
+a#link{
+    color: white;
+}
+
+#navigation-up{
+    display: flex;
+    /* position: fixed; */
+    align-items: end;
+    background-color: rgb(33 119 231);
+    text-decoration: none;
+    width: 100%;
+    height: 7.6vh;
+    padding: 9px 0px 0px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+li{
+    text-decoration: none;
+}
+
+ul li a{
+    color: black;
+}
+
+img {
+    height: 40px;
+    padding: 12px 0px 0px 17px;
+}
+#search{
+    width: 11cm;
+    height: 30px;
+}
+
+::placeholder{
+    font-style: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Login{
+   color:rgb(33 119 231);
+   padding:30px 0px 0px 0px;
+   
+}
+
+
+#More{
+    color:white;
+    padding: 30px 0px 0px 0px;
     cursor: pointer;
 }
 
-#left{
-    text-align:left;
-    justify-content: left;
-    width: 10in;
-}
-
-.info{
-    background-color: rgb(47, 45, 45);
-    padding: 60px;
-    height: 66vh;
+#logo{
     color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 0px 0px 0px;
 }
 
-h3{
-    color:grey;
-    font-size: 15px;
+#box{
+    padding: 20px 0px 0px 0px;
+}
+
+#Cart{
+    color:white;
+    padding:30px 0px 0px 0px;
+    cursor: pointer;
+}
+
+#navigation-mid{
+    display: flex;
+    /* position: relative; */
+    align-items: center;
+    justify-content: center;
+    border-color: solid blue 5px;
+    cursor: pointer;
+}
+
+#navigation-mid ul{
+    font-size: 13px;
+    border-color: solid blue 5px;
+    padding:0px;
+}
+
+.content{
+    display: flex;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.login-logo{
+    display: flex;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    flex-direction: column;
+    width: 8cm;
+    height: 59.1vh;
+    margin: 23px 0px 0px 25%;
+    padding: 0px 0px 25px;
+    background: rgb(33 119 231);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#image-box{
+    height: 120px;
+    padding: 183px 0px 10px 10px;
+}
+form{
+    font-family: sans-serif;
+    padding: 23px 19px 13px 0px;
+    background-color: white;
+}
+#image{
+    height:20px
+}
+.login-image{
+    align-items: end;
+    height: 55%;
+    width: 85%;
+
+}
+.login-page{
+    background-color: white;
+    margin: 23px 0px 0px 0px;
+    padding: 20px;
+    width: 20rem;
+}
+
+#email-input{
+    width: 20rem;
+}
+
+#password-input{
+    width: 20rem;
+}
+
+#login{
+    background-color: rgb(255, 255, 255);
+    border: white;
+    width: 19.5rem;
+}
+
+#OTP{
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    text-decoration: none;
+    padding: 25px 185px 0px 112px;
+    height: 0;
+}
+
+#dev{
+    width:100%;
+    color: blue;
+    background: white;
+    border: solid grey 2px;
+    cursor: pointer;
+}
+
+#Login2 {
+    width:100%;
+    background-color: rgb(242 115 42);
+    border:5px orange;
+    color:white;
+    height: 25px;
+    cursor: pointer;
+}
+h2{
+    padding:0rem 0rem 0rem 8.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h5{
+    color:blue;
+    font-size: small;
+    font-weight: 100;
+    width:100%;
+    padding: 0px 0px 0px 59px;
+    cursor: pointer;
 }
 
 button{
-    background-color: rgb(70, 69, 69);
-    font-family:Arial, Helvetica, sans-serif;
-    color: rgb(219, 65, 65);;
-    border-color: rgb(219, 65, 65);
-    border-radius: 3px;
-    padding:5px 2px 4px 5px;
+    width: 70px;
+    height: 25px;
 }
+
+form input{
+    font-size: 13px;
+    height: 20px
+}
+
+form input ::placeholder{
+    font-family: fantasy; 
+}
+
+/* @media only screen and(min-width:480),(min-height:320) {
+    body{
+       
+        background-color: aqua;
+    }
+
+    nav{
+        min-width: 100vw;
+    }
+
+    .content{
+        min-width: 100vw;
+    }
+
+    #navigation-mid{
+        width: 100vw;
+    }
+} */
